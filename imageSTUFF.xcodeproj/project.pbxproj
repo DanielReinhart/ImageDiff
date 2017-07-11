@@ -14,6 +14,13 @@
 		83ADEFC11F1537350063202D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83ADEFBF1F1537350063202D /* LaunchScreen.storyboard */; };
 		83ADEFCC1F1537350063202D /* imageSTUFFTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEFCB1F1537350063202D /* imageSTUFFTests.swift */; };
 		83ADEFD71F1537350063202D /* imageSTUFFUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEFD61F1537350063202D /* imageSTUFFUITests.swift */; };
+		83ADEFE91F15381A0063202D /* Image+Pixels.m in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEFE81F15381A0063202D /* Image+Pixels.m */; };
+		83ADEFF31F15470C0063202D /* UIColor+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEFF21F15470C0063202D /* UIColor+Compare.swift */; };
+		83ADEFF51F1547BC0063202D /* UIImage+Compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83ADEFF41F1547BC0063202D /* UIImage+Compare.swift */; };
+		83ADEFFF1F1588990063202D /* drawing1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADEFFE1F1588990063202D /* drawing1.jpg */; };
+		83ADF0011F15889D0063202D /* drawing2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0001F15889D0063202D /* drawing2.jpg */; };
+		83ADF0031F1590B80063202D /* drawing3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0021F1590B80063202D /* drawing3.jpg */; };
+		83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0041F1590BD0063202D /* drawing4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +54,15 @@
 		83ADEFD21F1537350063202D /* imageSTUFFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = imageSTUFFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83ADEFD61F1537350063202D /* imageSTUFFUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = imageSTUFFUITests.swift; sourceTree = "<group>"; };
 		83ADEFD81F1537350063202D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83ADEFE61F15381A0063202D /* imageSTUFF-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "imageSTUFF-Bridging-Header.h"; sourceTree = "<group>"; };
+		83ADEFE71F15381A0063202D /* Image+Pixels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Image+Pixels.h"; sourceTree = "<group>"; };
+		83ADEFE81F15381A0063202D /* Image+Pixels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Image+Pixels.m"; sourceTree = "<group>"; };
+		83ADEFF21F15470C0063202D /* UIColor+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Compare.swift"; sourceTree = "<group>"; };
+		83ADEFF41F1547BC0063202D /* UIImage+Compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Compare.swift"; sourceTree = "<group>"; };
+		83ADEFFE1F1588990063202D /* drawing1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing1.jpg; sourceTree = "<group>"; };
+		83ADF0001F15889D0063202D /* drawing2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing2.jpg; sourceTree = "<group>"; };
+		83ADF0021F1590B80063202D /* drawing3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3.jpg; sourceTree = "<group>"; };
+		83ADF0041F1590BD0063202D /* drawing4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +114,20 @@
 			isa = PBXGroup;
 			children = (
 				83ADEFB61F1537340063202D /* AppDelegate.swift */,
+				83ADEFE71F15381A0063202D /* Image+Pixels.h */,
+				83ADEFE81F15381A0063202D /* Image+Pixels.m */,
 				83ADEFB81F1537340063202D /* ViewController.swift */,
+				83ADEFFE1F1588990063202D /* drawing1.jpg */,
+				83ADF0001F15889D0063202D /* drawing2.jpg */,
+				83ADF0021F1590B80063202D /* drawing3.jpg */,
+				83ADF0041F1590BD0063202D /* drawing4.jpg */,
+				83ADEFF21F15470C0063202D /* UIColor+Compare.swift */,
+				83ADEFF41F1547BC0063202D /* UIImage+Compare.swift */,
 				83ADEFBA1F1537340063202D /* Main.storyboard */,
 				83ADEFBD1F1537340063202D /* Assets.xcassets */,
 				83ADEFBF1F1537350063202D /* LaunchScreen.storyboard */,
 				83ADEFC21F1537350063202D /* Info.plist */,
+				83ADEFE61F15381A0063202D /* imageSTUFF-Bridging-Header.h */,
 			);
 			path = imageSTUFF;
 			sourceTree = "<group>";
@@ -194,6 +219,7 @@
 					83ADEFB21F1537340063202D = {
 						CreatedOnToolsVersion = 8.3.3;
 						DevelopmentTeam = Q69JMRS3FN;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					83ADEFC61F1537350063202D = {
@@ -235,8 +261,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83ADF0031F1590B80063202D /* drawing3.jpg in Resources */,
+				83ADEFFF1F1588990063202D /* drawing1.jpg in Resources */,
 				83ADEFC11F1537350063202D /* LaunchScreen.storyboard in Resources */,
 				83ADEFBE1F1537340063202D /* Assets.xcassets in Resources */,
+				83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */,
+				83ADF0011F15889D0063202D /* drawing2.jpg in Resources */,
 				83ADEFBC1F1537340063202D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +294,9 @@
 			files = (
 				83ADEFB91F1537340063202D /* ViewController.swift in Sources */,
 				83ADEFB71F1537340063202D /* AppDelegate.swift in Sources */,
+				83ADEFE91F15381A0063202D /* Image+Pixels.m in Sources */,
+				83ADEFF51F1547BC0063202D /* UIImage+Compare.swift in Sources */,
+				83ADEFF31F15470C0063202D /* UIColor+Compare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +450,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Q69JMRS3FN;
 				INFOPLIST_FILE = imageSTUFF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DRei.imageSTUFF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageSTUFF/imageSTUFF-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -430,11 +466,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Q69JMRS3FN;
 				INFOPLIST_FILE = imageSTUFF/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = DRei.imageSTUFF;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "imageSTUFF/imageSTUFF-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

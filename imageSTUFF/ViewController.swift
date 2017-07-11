@@ -10,9 +10,21 @@ import UIKit
 
 class ViewController: UIViewController {
 
+
+
+    @IBOutlet weak var imageView: UIImageView!
+
+    @IBOutlet weak var imageView2: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
+
+        let outputImage = image1.compare(to: image2)
+        imageView.image = outputImage
+        imageView2.image = image1
+
     }
 
     override func didReceiveMemoryWarning() {
