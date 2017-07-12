@@ -73,17 +73,17 @@
                                 <rect key="frame" x="0.0" y="64" width="375" height="603"/>
                                 <subviews>
                                     <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="r98-1F-aUa">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="496"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="462"/>
                                     </scrollView>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="EYd-Nb-Oui">
-                                        <rect key="frame" x="0.0" y="511" width="375" height="92"/>
+                                        <rect key="frame" x="0.0" y="477" width="375" height="126"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="suP-mS-ssB">
-                                                <rect key="frame" x="0.0" y="0.5" width="180" height="91.5"/>
-                                            </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="0q8-Dp-9Jj">
-                                                <rect key="frame" x="195" y="0.5" width="180" height="91.5"/>
-                                            </imageView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="skH-Lq-3v0">
+                                                <rect key="frame" x="0.0" y="3" width="180" height="120"/>
+                                            </scrollView>
+                                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMh-jM-Exh">
+                                                <rect key="frame" x="195" y="0.0" width="180" height="126"/>
+                                            </scrollView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -98,9 +98,9 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="imageView2" destination="suP-mS-ssB" id="tOV-Ws-z33"/>
-                        <outlet property="imageView3" destination="0q8-Dp-9Jj" id="OCe-Uh-O5a"/>
                         <outlet property="scrollView" destination="r98-1F-aUa" id="FIc-Rh-qRP"/>
+                        <outlet property="scrollViewOne" destination="skH-Lq-3v0" id="Tlq-JC-cj2"/>
+                        <outlet property="scrollViewTwo" destination="aMh-jM-Exh" id="OTF-re-TEc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

@@ -24,6 +24,7 @@ class SampleDataListViewController: UITableViewController {
             ImagePair(first: "drawing1.jpg", second: "drawing2.jpg"),
             ImagePair(first: "drawing3.jpg", second: "drawing4.jpg"),
             ImagePair(first: "drawing3_rev0.jpg", second: "drawing3_rev4.jpg"),
+            ImagePair(first: "drawing4_rev0.jpg", second: "drawing4_rev2.jpg"),
         ]
     }
 
