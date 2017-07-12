@@ -26,6 +26,12 @@
 		8ECD3CB71F16987D0034BCBA /* drawing3_rev4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB51F16987D0034BCBA /* drawing3_rev4.jpg */; };
 		8ECD3CBA1F16A46C0034BCBA /* drawing4_rev0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB81F16A46C0034BCBA /* drawing4_rev0.jpg */; };
 		8ECD3CBB1F16A46C0034BCBA /* drawing4_rev2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB91F16A46C0034BCBA /* drawing4_rev2.jpg */; };
+		8ECD3CC21F16AB650034BCBA /* drawing5_rev0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CBC1F16AB650034BCBA /* drawing5_rev0.jpg */; };
+		8ECD3CC31F16AB650034BCBA /* drawing5_rev6.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CBD1F16AB650034BCBA /* drawing5_rev6.jpg */; };
+		8ECD3CC41F16AB650034BCBA /* drawing6_rev0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CBE1F16AB650034BCBA /* drawing6_rev0.jpg */; };
+		8ECD3CC51F16AB650034BCBA /* drawing6_rev8.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CBF1F16AB650034BCBA /* drawing6_rev8.jpg */; };
+		8ECD3CC61F16AB650034BCBA /* drawing7_rev0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CC01F16AB650034BCBA /* drawing7_rev0.jpg */; };
+		8ECD3CC71F16AB650034BCBA /* drawing7_rev3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CC11F16AB650034BCBA /* drawing7_rev3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +79,12 @@
 		8ECD3CB51F16987D0034BCBA /* drawing3_rev4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3_rev4.jpg; sourceTree = "<group>"; };
 		8ECD3CB81F16A46C0034BCBA /* drawing4_rev0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing4_rev0.jpg; sourceTree = "<group>"; };
 		8ECD3CB91F16A46C0034BCBA /* drawing4_rev2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing4_rev2.jpg; sourceTree = "<group>"; };
+		8ECD3CBC1F16AB650034BCBA /* drawing5_rev0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing5_rev0.jpg; sourceTree = "<group>"; };
+		8ECD3CBD1F16AB650034BCBA /* drawing5_rev6.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing5_rev6.jpg; sourceTree = "<group>"; };
+		8ECD3CBE1F16AB650034BCBA /* drawing6_rev0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing6_rev0.jpg; sourceTree = "<group>"; };
+		8ECD3CBF1F16AB650034BCBA /* drawing6_rev8.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing6_rev8.jpg; sourceTree = "<group>"; };
+		8ECD3CC01F16AB650034BCBA /* drawing7_rev0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing7_rev0.jpg; sourceTree = "<group>"; };
+		8ECD3CC11F16AB650034BCBA /* drawing7_rev3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing7_rev3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,6 +181,12 @@
 				83ADF0041F1590BD0063202D /* drawing4.jpg */,
 				8ECD3CB81F16A46C0034BCBA /* drawing4_rev0.jpg */,
 				8ECD3CB91F16A46C0034BCBA /* drawing4_rev2.jpg */,
+				8ECD3CBC1F16AB650034BCBA /* drawing5_rev0.jpg */,
+				8ECD3CBD1F16AB650034BCBA /* drawing5_rev6.jpg */,
+				8ECD3CBE1F16AB650034BCBA /* drawing6_rev0.jpg */,
+				8ECD3CBF1F16AB650034BCBA /* drawing6_rev8.jpg */,
+				8ECD3CC01F16AB650034BCBA /* drawing7_rev0.jpg */,
+				8ECD3CC11F16AB650034BCBA /* drawing7_rev3.jpg */,
 			);
 			name = sampleImages;
 			sourceTree = "<group>";
@@ -286,15 +304,21 @@
 			files = (
 				83ADF0031F1590B80063202D /* drawing3.jpg in Resources */,
 				83ADEFFF1F1588990063202D /* drawing1.jpg in Resources */,
+				8ECD3CC71F16AB650034BCBA /* drawing7_rev3.jpg in Resources */,
+				8ECD3CC41F16AB650034BCBA /* drawing6_rev0.jpg in Resources */,
 				8ECD3CBB1F16A46C0034BCBA /* drawing4_rev2.jpg in Resources */,
 				83ADEFC11F1537350063202D /* LaunchScreen.storyboard in Resources */,
 				8ECD3CB71F16987D0034BCBA /* drawing3_rev4.jpg in Resources */,
+				8ECD3CC51F16AB650034BCBA /* drawing6_rev8.jpg in Resources */,
+				8ECD3CC31F16AB650034BCBA /* drawing5_rev6.jpg in Resources */,
+				8ECD3CC21F16AB650034BCBA /* drawing5_rev0.jpg in Resources */,
 				8ECD3CBA1F16A46C0034BCBA /* drawing4_rev0.jpg in Resources */,
 				8ECD3CB61F16987D0034BCBA /* drawing3_rev0.jpg in Resources */,
 				83ADEFBE1F1537340063202D /* Assets.xcassets in Resources */,
 				83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */,
 				83ADF0011F15889D0063202D /* drawing2.jpg in Resources */,
 				83ADEFBC1F1537340063202D /* Main.storyboard in Resources */,
+				8ECD3CC61F16AB650034BCBA /* drawing7_rev0.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
