@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let image1 = UIImage(named: "drawing1.jpg")!
-        let image2 = UIImage(named: "drawing2.jpg")!
+        let image1 = UIImage(named: "drawing3.jpg")!
+        let image2 = UIImage(named: "drawing4.jpg")!
 
-        let outputImage = image1.compare(to: image2)
+        let outputImage = image1.compare3(to: image2)
         imageView.image = outputImage
         imageView2.image = image1
 
