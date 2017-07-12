@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIScrollViewDelegate {
         let image1 = UIImage(named: imageOneName!)!
         let image2 = UIImage(named: imageTwoName!)!
 
-        let outputImage = image1.compare(to: image2)
+        let outputImage = image1.compare4(to: image2)
 
         // Diff view setup
         diffImageView.image = outputImage

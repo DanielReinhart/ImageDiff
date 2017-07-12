@@ -53,4 +53,13 @@ class imageSTUFFTests: XCTestCase {
         }
     }
 
+    func testCompareFour() {
+        // This is an example of a performance test case.
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
+        self.measure {
+            _ = image1.compare4(to: image2)
+        }
+    }
+
 }
