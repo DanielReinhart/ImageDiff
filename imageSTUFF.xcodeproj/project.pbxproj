@@ -21,6 +21,7 @@
 		83ADF0011F15889D0063202D /* drawing2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0001F15889D0063202D /* drawing2.jpg */; };
 		83ADF0031F1590B80063202D /* drawing3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0021F1590B80063202D /* drawing3.jpg */; };
 		83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0041F1590BD0063202D /* drawing4.jpg */; };
+		8ECD3CB21F16901D0034BCBA /* SampleDataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB11F16901D0034BCBA /* SampleDataListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		83ADF0001F15889D0063202D /* drawing2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing2.jpg; sourceTree = "<group>"; };
 		83ADF0021F1590B80063202D /* drawing3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3.jpg; sourceTree = "<group>"; };
 		83ADF0041F1590BD0063202D /* drawing4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing4.jpg; sourceTree = "<group>"; };
+		8ECD3CB11F16901D0034BCBA /* SampleDataListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +130,7 @@
 				83ADEFBF1F1537350063202D /* LaunchScreen.storyboard */,
 				83ADEFC21F1537350063202D /* Info.plist */,
 				83ADEFE61F15381A0063202D /* imageSTUFF-Bridging-Header.h */,
+				8ECD3CB11F16901D0034BCBA /* SampleDataListViewController.swift */,
 			);
 			path = imageSTUFF;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ECD3CB21F16901D0034BCBA /* SampleDataListViewController.swift in Sources */,
 				83ADEFB91F1537340063202D /* ViewController.swift in Sources */,
 				83ADEFB71F1537340063202D /* AppDelegate.swift in Sources */,
 				83ADEFE91F15381A0063202D /* Image+Pixels.m in Sources */,
@@ -554,6 +558,7 @@
 				83ADEFDD1F1537350063202D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83ADEFDE1F1537350063202D /* Build configuration list for PBXNativeTarget "imageSTUFFTests" */ = {
 			isa = XCConfigurationList;
@@ -562,6 +567,7 @@
 				83ADEFE01F1537350063202D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		83ADEFE11F1537350063202D /* Build configuration list for PBXNativeTarget "imageSTUFFUITests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +576,7 @@
 				83ADEFE31F1537350063202D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

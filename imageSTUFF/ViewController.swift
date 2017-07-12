@@ -10,7 +10,8 @@ import UIKit
 
 class ViewController: UIViewController {
 
-
+    var imageOneName: String?
+    var imageTwoName: String?
 
     @IBOutlet weak var imageView: UIImageView!
 
@@ -18,8 +19,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        let image1 = UIImage(named: "drawing1.jpg")!
-        let image2 = UIImage(named: "drawing2.jpg")!
+        let image1 = UIImage(named: imageOneName!)!
+        let image2 = UIImage(named: imageTwoName!)!
 
         let outputImage = image1.compare(to: image2)
         imageView.image = outputImage
