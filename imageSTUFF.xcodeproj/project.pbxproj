@@ -22,6 +22,8 @@
 		83ADF0031F1590B80063202D /* drawing3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0021F1590B80063202D /* drawing3.jpg */; };
 		83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83ADF0041F1590BD0063202D /* drawing4.jpg */; };
 		8ECD3CB21F16901D0034BCBA /* SampleDataListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB11F16901D0034BCBA /* SampleDataListViewController.swift */; };
+		8ECD3CB61F16987D0034BCBA /* drawing3_rev0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB41F16987D0034BCBA /* drawing3_rev0.jpg */; };
+		8ECD3CB71F16987D0034BCBA /* drawing3_rev4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8ECD3CB51F16987D0034BCBA /* drawing3_rev4.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +67,8 @@
 		83ADF0021F1590B80063202D /* drawing3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3.jpg; sourceTree = "<group>"; };
 		83ADF0041F1590BD0063202D /* drawing4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing4.jpg; sourceTree = "<group>"; };
 		8ECD3CB11F16901D0034BCBA /* SampleDataListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleDataListViewController.swift; sourceTree = "<group>"; };
+		8ECD3CB41F16987D0034BCBA /* drawing3_rev0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3_rev0.jpg; sourceTree = "<group>"; };
+		8ECD3CB51F16987D0034BCBA /* drawing3_rev4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = drawing3_rev4.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,14 +119,11 @@
 		83ADEFB51F1537340063202D /* imageSTUFF */ = {
 			isa = PBXGroup;
 			children = (
+				8ECD3CB31F16985D0034BCBA /* sampleImages */,
 				83ADEFB61F1537340063202D /* AppDelegate.swift */,
 				83ADEFE71F15381A0063202D /* Image+Pixels.h */,
 				83ADEFE81F15381A0063202D /* Image+Pixels.m */,
 				83ADEFB81F1537340063202D /* ViewController.swift */,
-				83ADEFFE1F1588990063202D /* drawing1.jpg */,
-				83ADF0001F15889D0063202D /* drawing2.jpg */,
-				83ADF0021F1590B80063202D /* drawing3.jpg */,
-				83ADF0041F1590BD0063202D /* drawing4.jpg */,
 				83ADEFF21F15470C0063202D /* UIColor+Compare.swift */,
 				83ADEFF41F1547BC0063202D /* UIImage+Compare.swift */,
 				83ADEFBA1F1537340063202D /* Main.storyboard */,
@@ -151,6 +152,19 @@
 				83ADEFD81F1537350063202D /* Info.plist */,
 			);
 			path = imageSTUFFUITests;
+			sourceTree = "<group>";
+		};
+		8ECD3CB31F16985D0034BCBA /* sampleImages */ = {
+			isa = PBXGroup;
+			children = (
+				8ECD3CB41F16987D0034BCBA /* drawing3_rev0.jpg */,
+				8ECD3CB51F16987D0034BCBA /* drawing3_rev4.jpg */,
+				83ADEFFE1F1588990063202D /* drawing1.jpg */,
+				83ADF0001F15889D0063202D /* drawing2.jpg */,
+				83ADF0021F1590B80063202D /* drawing3.jpg */,
+				83ADF0041F1590BD0063202D /* drawing4.jpg */,
+			);
+			name = sampleImages;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +281,8 @@
 				83ADF0031F1590B80063202D /* drawing3.jpg in Resources */,
 				83ADEFFF1F1588990063202D /* drawing1.jpg in Resources */,
 				83ADEFC11F1537350063202D /* LaunchScreen.storyboard in Resources */,
+				8ECD3CB71F16987D0034BCBA /* drawing3_rev4.jpg in Resources */,
+				8ECD3CB61F16987D0034BCBA /* drawing3_rev0.jpg in Resources */,
 				83ADEFBE1F1537340063202D /* Assets.xcassets in Resources */,
 				83ADF0051F1590BD0063202D /* drawing4.jpg in Resources */,
 				83ADF0011F15889D0063202D /* drawing2.jpg in Resources */,
