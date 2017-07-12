@@ -16,6 +16,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var imageView: UIImageView!
 
     @IBOutlet weak var imageView2: UIImageView!
+    @IBOutlet weak var imageView3: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -25,6 +26,7 @@ class ViewController: UIViewController {
         let outputImage = image1.compare(to: image2)
         imageView.image = outputImage
         imageView2.image = image1
+        imageView3.image = image2
 
     }
 
