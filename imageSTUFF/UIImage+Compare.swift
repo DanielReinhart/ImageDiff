@@ -34,7 +34,7 @@ extension UIImage {
 
                 let bezierPath = UIBezierPath(rect: CGRect(x: column, y: row, width: 1, height: 1))
                 cgContext?.saveGState()
-                if pixel1.isEqualToColor(color2: pixel2, withTolerance: 0.5) {
+                if pixel1.isEqualToColor(color2: pixel2, withTolerance: 0.0125) {
                     cgContext?.addPath(bezierPath.cgPath)
                     cgContext?.setFillColor(pixel1.average(color2: pixel2).cgColor)
                     cgContext?.fillPath()
