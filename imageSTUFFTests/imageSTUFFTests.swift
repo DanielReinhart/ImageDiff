@@ -26,11 +26,49 @@ class imageSTUFFTests: XCTestCase {
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
     
-    func testPerformanceExample() {
+    func testCompareOne() {
         // This is an example of a performance test case.
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
         self.measure {
-            // Put the code you want to measure the time of here.
+            _ = image1.compare(to: image2)
         }
     }
-    
+
+    func testCompareTwo() {
+        // This is an example of a performance test case.
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
+        self.measure {
+            _ = image1.compare2(to: image2)
+        }
+    }
+
+    func testCompareThree() {
+        // This is an example of a performance test case.
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
+        self.measure {
+            _ = image1.compare3(to: image2)
+        }
+    }
+
+    func testCompareFour() {
+        // This is an example of a performance test case.
+        let image1 = UIImage(named: "drawing1.jpg")!
+        let image2 = UIImage(named: "drawing2.jpg")!
+        self.measure {
+            _ = image1.compare4(to: image2)
+        }
+    }
+
+    func testKernel() {
+        let image1 = CIImage(image: UIImage(named: "drawing1.jpg")!)!
+        let image2 = CIImage(image: UIImage(named: "drawing2.jpg")!)!
+        let filter = ComparisonFilter(image1: image1, image2: image2)
+        self.measure {
+            _ = filter.outputImage
+        }
+    }
+
 }

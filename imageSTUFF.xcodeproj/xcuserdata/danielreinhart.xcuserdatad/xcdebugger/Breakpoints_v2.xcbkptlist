@@ -47,12 +47,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "imageSTUFF/UIImage+Compare.swift"
-            timestampString = "521508785.827763"
+            timestampString = "521578999.041806"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "compare(to:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "imageSTUFF/UIImage+Compare.swift"
+            timestampString = "521578999.041806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "120"
+            endingLineNumber = "120"
+            landmarkName = "compare2(to:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
