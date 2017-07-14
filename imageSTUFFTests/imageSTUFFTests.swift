@@ -62,4 +62,13 @@ class imageSTUFFTests: XCTestCase {
         }
     }
 
+    func testKernel() {
+        let image1 = CIImage(image: UIImage(named: "drawing1.jpg")!)!
+        let image2 = CIImage(image: UIImage(named: "drawing2.jpg")!)!
+        let filter = ComparisonFilter(image1: image1, image2: image2)
+        self.measure {
+            _ = filter.outputImage
+        }
+    }
+
 }
